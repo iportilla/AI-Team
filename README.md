@@ -162,7 +162,8 @@ One unique feature of this app is the ability to run **100% locally** using [Oll
 ### 1 — Install Python dependencies
 
 ```bash
-cd ollama
+git clone https://github.com/iportilla/AI-Team.git
+cd AI-Team/
 pip install -r requirements.txt
 ```
 
@@ -255,7 +256,7 @@ After every answer, the app shows a **Retrieved context** panel with a score lik
 ## Project File Structure
 
 ```
-ollama/
+AI-Team/
 ├── rag-app-readme-streamlit.py   ← this app
 ├── demo-readme.md                ← default document loaded if nothing is uploaded
 ├── requirements.txt              ← Python package list
